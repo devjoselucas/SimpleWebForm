@@ -28,8 +28,15 @@
                 </p>
                 <form>
                     <div class="box-input">
-                        <label for="title">Título do anúncio:</label>
-                        <input type="text" name="title" id="title" class="block">
+                        <label for="title">Título do anúncio:
+                               <span class="required-field">*</span>
+                        </label>
+                        <input type="text" name="title" id="title" 
+                               class="block" placeholder="Defina um título para o seu veículo"
+                               minlength="1" maxlength="30"
+                               required>
+                        <input type="submit" value="Cadastrar" 
+                               class="btn-submit">
                     </div>
                 </form>
             </div>
