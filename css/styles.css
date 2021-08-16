@@ -92,3 +92,9 @@ textarea{
     cursor: pointer;
     transition: .5s;
 }
+
+.btn-submit:hover{
+    background-color: #FFF;
+    border-color: #673AB7;
+    color: #673AB7;
+}
