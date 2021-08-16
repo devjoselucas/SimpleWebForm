@@ -82,3 +82,13 @@ textarea{
     list-style: none;
 }
 
+.btn-submit{
+    background-color: #673AB7;
+    color: #FFF;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
