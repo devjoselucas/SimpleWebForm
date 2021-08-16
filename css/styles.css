@@ -30,4 +30,10 @@ textarea{
     width: 400px;
 }
 
-/* */
+/* CAbeçalho da Página*/
+
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #673AB7;
+}
