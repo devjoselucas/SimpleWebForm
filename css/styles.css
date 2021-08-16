@@ -1,3 +1,5 @@
+/*Formulário de Venda de Veículos*/
+
 /* Reset */
 
 body{
@@ -30,6 +32,7 @@ textarea{
     width: 400px;
 }
 
+
 /* CAbeçalho da Página*/
 
 .header{
@@ -41,4 +44,19 @@ textarea{
 .header h3{
     color: #FFF;
     margin-top: 0;
+}
+
+
+/* Corpo do Formulário*/
+
+.form-body{
+    padding: 30px;
+}
+
+.form-title{
+    margin: 0;
+}
+
+.required-fiel{
+    color: red;
 }
