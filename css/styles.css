@@ -1,3 +1,5 @@
+/* Reset */
+
 body{
     margin: 0;
     padding: 0;
@@ -22,3 +24,10 @@ input{
 input[type=text], input[type=number], input[type=date], input[type=file]{
     width: 400px;
 }
+
+textarea{
+    padding: 10px 5px;
+    width: 400px;
+}
+
+/* */
