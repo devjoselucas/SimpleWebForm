@@ -35,6 +35,15 @@ textarea{
 
 /* Cabeçalho da Página*/
 
+.container{
+    background-color: #FFF;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -62px;
+}
+
 .header{
     height: 160px;
     padding: 20px;
