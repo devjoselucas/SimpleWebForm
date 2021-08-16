@@ -37,3 +37,8 @@ textarea{
     padding: 20px;
     background-color: #673AB7;
 }
+
+.header h3{
+    color: #FFF;
+    margin-top: 0;
+}
