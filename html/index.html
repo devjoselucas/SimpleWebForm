@@ -27,6 +27,7 @@
                     Descreva as características do seu veículo:
                 </p>
                 <form>
+                    
                     <div class="box-input">
                         <label for="title">Título do anúncio:
                                <span class="required-field">*</span>
@@ -37,12 +38,14 @@
                                required>
                         <input type="submit" class="btn-submit" value="Cadastrar" >
                     </div>
+                    
                     <div class="box-input">
                         <label for="price">Preço do veículo:
                             <span class="required-field">*</span>
                         </label>
                         <input type="number" id="price" name="price" class="block" required>
                     </div>
+                    
                     <div class="box-input">
                         <label for="description">Descrição:
                             <span class="required-field">*</span>                                                        </span>
@@ -58,6 +61,82 @@
                         >
                         </textarea>
                     </div>
+                    
+                    <div class="box-input">
+                        <label for="unique-owner">Único dono?
+                            <span class="required-field">*</span>
+                        </label>
+                        <select id="unique-owner" name="unique-owner" required>
+                            <option value="">Selecione:</option>
+                            <option value="1">Sim</option>
+                            <option value="0">Não</option>
+                        </select>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="brand">
+                            Marca
+                            <span class="required-field">*</span>
+                        </label>
+                        <input
+                            type="text"
+                            name="brand"
+                            id="brand"
+                            class="block"
+                            placeholder="Digite a marca do seu veículo:"
+                            required
+                        >
+                        
+                    </div>
+                    
+                    <div class="box-input">
+                        <label for="brand">
+                            Modelo
+                            <span class="required-field">*</span>
+                        </label>
+                        <input
+                            type="text"
+                            name="model"
+                            id="model"
+                            class="block"
+                            placeholder="Digite o modelo do seu veículo:"
+                            required
+                        >
+                    </div>
+                                        
+                    <div class="box-input">
+                        <label for="mileage">
+                            Quilometragem
+                            <span class="required-field">*</span>
+                        </label>
+                        <input
+                            type="number"
+                            name="mileage"
+                            id="mileage"
+                            class="block"
+                            required
+                        >
+                    </div>
+                                        
+                    <div class="box-input">
+                        <label for="purchase-date">
+                            DAta de compra do veículo
+                            <span class="required-field">*</span>
+                        </label>
+                        <input
+                            type="date"
+                            name="purchase-date"
+                            id="purchase-date"
+                            class="block"
+                            required
+                        >
+                    </div>
+                    
+                    <input
+                        type="submit"
+                        class="btn-submit"
+                        value="Cadastrar"
+                    >
                 </form>
             </div>
         </div>
